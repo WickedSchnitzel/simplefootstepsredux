@@ -1,216 +1,1571 @@
 [
-  // Vanilla Entities
+    // Vanilla Entities
+    {
+        "mobMatchCode": "shiver",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.65,
+        "volume": 0.25,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "shiver",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.22,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "shiver",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.22,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "shiver",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.65,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "shiver",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
 
-  {"mobMatchCode": "drifter","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.4,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "drifter","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.37,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "drifter","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.37,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "drifter","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.37,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "drifter","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
+    {
+        "mobMatchCode": "bowtorn",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bowtorn",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.36,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bowtorn",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.36,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bowtorn",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.36,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bowtorn",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
 
-  {"mobMatchCode": "trader","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "trader","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "trader","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "trader","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "trader","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "deer","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "deer","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "deer","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "deer","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "deer","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "goat","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "goat","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goat","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goat","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goat","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "moose","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "moose","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "moose","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "moose","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "moose","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "bear","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.65,"volume": 0.93,"changepitch": true},
-  {"mobMatchCode": "bear","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.48,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bear","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.48,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bear","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.48,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bear","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.85,"changepitch": true},
-  
-  {"mobMatchCode": "gazelle","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "gazelle","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gazelle","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gazelle","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gazelle","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "hyena","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "hyena","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "hyena","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "hyena","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "hyena","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "locust","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "locust","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "locust","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "locust","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "locust","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "pig","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.75,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "pig","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "pig","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "pig","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "pig","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "sheep","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "sheep","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "sheep","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "sheep","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "sheep","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "wolf","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "wolf","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "wolf","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "wolf","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "wolf","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  // Mod: CoB Server Pack
-  
-  {"mobMatchCode": "kai","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "kai","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "kai","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "kai","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "kai","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "penguin","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.55,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "penguin","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "penguin","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "penguin","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "penguin","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "tundrabison","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.9,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "tundrabison","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.35,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tundrabison","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.35,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tundrabison","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.9,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tundrabison","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "dog","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.72,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "dog","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "dog","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "dog","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "dog","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "elephant","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 1.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "elephant","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.35,"volume": 1.3,"changepitch": true},
-  {"mobMatchCode": "elephant","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 0.35,"volume": 1.3,"changepitch": true},
-  {"mobMatchCode": "elephant","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/drifter","soundTime": 1.2,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "elephant","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.4,"volume": 1,"changepitch": true},
-  
-  {"mobMatchCode": "horse","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.55,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "horse","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.35,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "horse","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.35,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "horse","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "horse","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "spider-big","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.2,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "spider-big","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.75,"changepitch": true},
-  {"mobMatchCode": "spider-big","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.75,"changepitch": true},
-  {"mobMatchCode": "spider-big","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "spider-big","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.3,"changepitch": true},
-  
-  {"mobMatchCode": "tiger","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.8,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "tiger","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tiger","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tiger","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "tiger","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "bandit","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "bandit","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.62,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bandit","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.62,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bandit","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "bandit","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "cannibal","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "cannibal","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.62,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "cannibal","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.62,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "cannibal","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "cannibal","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "skeleton","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.75,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "skeleton","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.37,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "skeleton","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.37,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "skeleton","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.75,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "skeleton","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "zombie","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.64,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "zombie","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.64,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "zombie","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.64,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "zombie","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.64,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "zombie","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.64,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "goblin","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "goblin","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.3,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goblin","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.3,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goblin","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "goblin","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "questgiver","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.42,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "questgiver","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "questgiver","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "questgiver","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "questgiver","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "gemsbok","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "gemsbok","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gemsbok","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gemsbok","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "gemsbok","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "ostrich","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.3,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "ostrich","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "ostrich","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "ostrich","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "ostrich","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "white-hart","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 1,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "white-hart","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "white-hart","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "white-hart","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "white-hart","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  // Mod: Medieval Expansion
-  
-  {"mobMatchCode": "aurochs","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 1,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "aurochs","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.6,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "aurochs","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.6,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "aurochs","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.85,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "aurochs","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  // Mod: The Critters Pack
-  
-  {"mobMatchCode": "yak","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 0.85,"changepitch": true},
-  {"mobMatchCode": "yak","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "yak","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.4,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "yak","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.65,"volume": 1,"changepitch": true},
-  {"mobMatchCode": "yak","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "-both","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.5,"volume": 0.05,"changepitch": true},
-  {"mobMatchCode": "-both","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.5,"volume": 0.05,"changepitch": true},
-  {"mobMatchCode": "-both","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.5,"volume": 0.05,"changepitch": true},
-  {"mobMatchCode": "-both","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.5,"volume": 0.05,"changepitch": true},
-  {"mobMatchCode": "-both","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.5,"volume": 0.05,"changepitch": true},
-  
-  // Mod: Primitive Survival
-  
-  {"mobMatchCode": "livingdead","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.8,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "livingdead","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.8,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "livingdead","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.8,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "livingdead","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.8,"volume": 0.7,"changepitch": true},
-  {"mobMatchCode": "livingdead","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 0.8,"volume": 0.65,"changepitch": true},
-  
-  {"mobMatchCode": "crab","soundTrigger": "wander","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "crab","soundTrigger": "fleeentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "crab","soundTrigger": "seekentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "crab","soundTrigger": "stayclosetoentity","soundFile": "simplefootstepsredux:sounds/creature/steps/npc","soundTime": 0.1,"volume": 0.5,"changepitch": true},
-  {"mobMatchCode": "crab","soundTrigger": "getoutofwater","soundFile": "simplefootstepsredux:sounds/creature/steps/water","soundTime": 1,"volume": 0.2,"changepitch": true}
+    {
+        "mobMatchCode": "drifter",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.4,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "drifter",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.37,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "drifter",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.37,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "drifter",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.37,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "drifter",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "-humanoid-trader",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-humanoid-trader",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-humanoid-trader",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-humanoid-trader",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-humanoid-trader",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "deer",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "deer",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "deer",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "deer",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "deer",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "goat",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goat",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goat",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goat",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goat",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "moose",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "moose",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "moose",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "moose",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "moose",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "bear",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.65,
+        "volume": 0.93,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bear",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.48,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bear",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.48,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bear",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.48,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bear",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.85,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "gazelle",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gazelle",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gazelle",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gazelle",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gazelle",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "hyena",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "hyena",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "hyena",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "hyena",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "hyena",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "locust",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "locust",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "locust",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "locust",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "locust",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "pig",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.75,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "pig",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "pig",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "pig",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "pig",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "sheep",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "sheep",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "sheep",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "sheep",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "sheep",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "wolf",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "wolf",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "wolf",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "wolf",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "wolf",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    // Mod: CoB Server Pack
+
+    {
+        "mobMatchCode": "kai",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "kai",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "kai",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "kai",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "kai",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "penguin",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.55,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "penguin",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "penguin",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "penguin",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "penguin",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "tundrabison",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.9,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tundrabison",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.35,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tundrabison",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.35,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tundrabison",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.9,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tundrabison",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "dog",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.72,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "dog",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "dog",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "dog",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "dog",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "elephant",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 1.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "elephant",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.35,
+        "volume": 1.3,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "elephant",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.35,
+        "volume": 1.3,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "elephant",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 1.2,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "elephant",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "horse",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.55,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "horse",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.35,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "horse",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.35,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "horse",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "horse",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "spider-big",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.2,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "spider-big",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.75,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "spider-big",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.75,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "spider-big",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "spider-big",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.3,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "tiger",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.8,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tiger",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tiger",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tiger",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "tiger",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "bandit",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bandit",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.62,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bandit",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.62,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bandit",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "bandit",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "cannibal",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "cannibal",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.62,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "cannibal",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.62,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "cannibal",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "cannibal",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "skeleton",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.75,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "skeleton",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.37,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "skeleton",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.37,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "skeleton",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.75,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "skeleton",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "zombie",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.64,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "zombie",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.64,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "zombie",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.64,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "zombie",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.64,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "zombie",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.64,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "goblin",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goblin",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.3,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goblin",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.3,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goblin",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "goblin",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "questgiver",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.42,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "questgiver",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "questgiver",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "questgiver",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "questgiver",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "gemsbok",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gemsbok",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gemsbok",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gemsbok",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "gemsbok",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "ostrich",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.3,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ostrich",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ostrich",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ostrich",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ostrich",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "white-hart",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 1,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "white-hart",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "white-hart",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "white-hart",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "white-hart",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    // Mod: Medieval Expansion
+
+    {
+        "mobMatchCode": "aurochs",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 1,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "aurochs",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.6,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "aurochs",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.6,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "aurochs",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.85,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "aurochs",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    // Mod: The Critters Pack
+
+    {
+        "mobMatchCode": "yak",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 0.85,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "yak",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "yak",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "yak",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.65,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "yak",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "-both",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.5,
+        "volume": 0.05,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-both",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.5,
+        "volume": 0.05,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-both",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.5,
+        "volume": 0.05,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-both",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.5,
+        "volume": 0.05,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "-both",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.5,
+        "volume": 0.05,
+        "changepitch": true
+    },
+
+    // Mod: Primitive Survival
+
+    {
+        "mobMatchCode": "livingdead",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.8,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "livingdead",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.8,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "livingdead",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.8,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "livingdead",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.8,
+        "volume": 0.7,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "livingdead",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.8,
+        "volume": 0.65,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "crab",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "crab",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "crab",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "crab",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/npc",
+        "soundTime": 0.1,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "crab",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1,
+        "volume": 0.2,
+        "changepitch": true
+    },
+
+    // Mod: Fantasy Creatures
+
+    {
+        "mobMatchCode": "ent-shepherd",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 1.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ent-shepherd",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.7,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ent-shepherd",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.7,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ent-shepherd",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 1.4,
+        "volume": 1,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ent-shepherd",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 1.4,
+        "volume": 0.9,
+        "changepitch": true
+    },
+
+    {
+        "mobMatchCode": "ork",
+        "soundTrigger": "wander",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.42,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ork",
+        "soundTrigger": "fleeentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.41,
+        "volume": 0.6,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ork",
+        "soundTrigger": "seekentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.41,
+        "volume": 0.6,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ork",
+        "soundTrigger": "stayclosetoentity",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/drifter",
+        "soundTime": 0.42,
+        "volume": 0.5,
+        "changepitch": true
+    },
+    {
+        "mobMatchCode": "ork",
+        "soundTrigger": "getoutofwater",
+        "soundFile": "simplefootstepsredux:sounds/creature/steps/water",
+        "soundTime": 0.6,
+        "volume": 0.65,
+        "changepitch": true
+    }
 
 ]

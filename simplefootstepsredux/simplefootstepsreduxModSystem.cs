@@ -3,34 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
-using Vintagestory.API.MathTools;
-using Vintagestory.Common;
 using Vintagestory.GameContent;
 
-namespace simplefootstepsredux
+namespace SimpleFootStepsRedux
 {
-    public class simplefootstepsreduxModSystem : ModSystem
+    public class SimpleFootStepsReduxModSystem : ModSystem
     {
         public static List<SoundEntry> soundEntries;
+
         public static List<SoundEntry> SoundEntries
         {
             get {
                 
                 return soundEntries;
-
             }
         }
+
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
             
-            AiTaskRegistry.Register("wander", typeof(AiTaskLoudWander));
-            AiTaskRegistry.Register("fleeentity", typeof(AiTaskLoudFleeEntity));
-            AiTaskRegistry.Register("seekentity", typeof(AiTaskLoudSeekEntity));
-            AiTaskRegistry.Register("getoutofwater", typeof(AiTaskLoudGetOutOfWater));
-            AiTaskRegistry.Register("stayclosetoentity", typeof(AiTaskLoudStayCloseToEntity));
-
-
+            AiTaskRegistry.Register<AiTaskLoudWander>("wander");
+            AiTaskRegistry.Register<AiTaskLoudFleeEntity>("fleeentity");
+            AiTaskRegistry.Register<AiTaskLoudSeekEntity>("seekentity");
+            AiTaskRegistry.Register<AiTaskLoudGetOutOfWater>("getoutofwater");
+            AiTaskRegistry.Register<AiTaskLoudStayCloseToEntity>("stayclosetoentity");
         }
 
         public override void AssetsFinalize(ICoreAPI api)
@@ -39,8 +36,8 @@ namespace simplefootstepsredux
             List<IAsset> many = api.Assets.GetMany("config/soundentries.json");
             foreach (IAsset asset in many)
             {
-                List<SoundEntry>se=asset.ToObject<List<SoundEntry>>();
-                if (se != null&&se.Count>0) { soundEntries.AddRange(se); }
+                List<SoundEntry> se = asset.ToObject<List<SoundEntry>>();
+                if (se != null && se.Count > 0 ) { soundEntries.AddRange(se); }
             }
             base.AssetsFinalize(api);
         }

@@ -1,13 +1,17 @@
 {
     "type": "code",
     "modid": "simplefootstepsredux",
-    "name": "simplefootstepsredux",
+    "name": "Simple Footsteps Redux",
     "authors": [
-        "Unknown"
+        "QPTech",
+        "MisterAndyDandy",
+        "CoB"
     ],
-    "description": "To be added",
-    "version": "1.0.0",
+    "description": "Will play footstep sounds for entities.",
+    "version": "1.0.4",
     "dependencies": {
         "game": ""
-    }
+    },
+    "RequiredOnClient": true,
+    "RequiredOnServer": true
 }
