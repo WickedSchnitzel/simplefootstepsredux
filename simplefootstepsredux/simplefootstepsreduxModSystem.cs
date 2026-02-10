@@ -1,4 +1,4 @@
-﻿
+
 using System.Collections.Generic;
 using System.Linq;
 using Vintagestory.API.Common;
@@ -32,22 +32,57 @@ namespace SimpleFootStepsRedux
 
         public override void AssetsFinalize(ICoreAPI api)
         {
-            soundEntries = new List<SoundEntry>();// = api.Assets.TryGet("simplefootstepsredux:config/soundentries.json").ToObject<List<SoundEntry>>();
-            List<IAsset> many = api.Assets.GetMany("config/soundentries.json");
-            foreach (IAsset asset in many)
+            try
             {
-                List<SoundEntry> se = asset.ToObject<List<SoundEntry>>();
-                if (se != null && se.Count > 0 ) { soundEntries.AddRange(se); }
+                soundEntries = new List<SoundEntry>();
+                List<IAsset> many = api.Assets.GetMany("config/soundentries.json");
+                foreach (IAsset asset in many)
+                {
+                    try
+                    {
+                        List<SoundEntry> se = asset.ToObject<List<SoundEntry>>();
+                        if (se != null && se.Count > 0) 
+                        { 
+                            soundEntries.AddRange(se); 
+                        }
+                    }
+                    catch (System.Exception ex)
+                    {
+                        api.Logger.Warning("SimpleFootstepsRedux: Failed to load sound entries from {0}: {1}", asset.Location, ex.Message);
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+                api.Logger.Error("SimpleFootstepsRedux: Critical error during AssetsFinalize: {0}", ex.Message);
+                soundEntries = new List<SoundEntry>(); // Ensure we have a valid list even on error
             }
             base.AssetsFinalize(api);
         }
 
         public static SoundEntry GetSoundEntry(Entity forentity, string soundTrigger)
         {
-            if (forentity == null) { return null; }
-            if (SoundEntries == null) { return null; }
-            SoundEntry find = SoundEntries.FirstOrDefault(x => forentity.Code.ToString().Contains(x.mobMatchCode) && x.soundTrigger == soundTrigger, null);
-            return find;
+            try
+            {
+                if (forentity == null) { return null; }
+                if (SoundEntries == null) { return null; }
+                if (string.IsNullOrEmpty(soundTrigger)) { return null; }
+                
+                string entityCode = forentity.Code?.ToString();
+                if (string.IsNullOrEmpty(entityCode)) { return null; }
+                
+                SoundEntry find = SoundEntries.FirstOrDefault(x => 
+                    !string.IsNullOrEmpty(x.mobMatchCode) && 
+                    !string.IsNullOrEmpty(x.soundTrigger) &&
+                    entityCode.Contains(x.mobMatchCode) && 
+                    x.soundTrigger == soundTrigger, null);
+                    
+                return find;
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }
