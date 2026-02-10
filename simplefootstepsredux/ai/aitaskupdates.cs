@@ -1,4 +1,4 @@
-﻿using Vintagestory.API.Common;
+using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
 using Vintagestory.GameContent;
 
@@ -45,7 +45,7 @@ namespace SimpleFootStepsRedux
 
             if (stepTimer >= stepTimerStop)
             {
-                world.PlaySoundAt(stepSound, entity.Pos.X, entity.Pos.Y, entity.Pos.Z,null,true,range,volume);
+                world.PlaySoundAt(stepSound, entity.Pos.X, entity.Pos.Y, entity.Pos.Z, null, true, range, volume);
                 stepTimer = 0;
             }
 
@@ -86,7 +86,7 @@ namespace SimpleFootStepsRedux
                     stepSound = new AssetLocation(trysound.soundFile);
                     stepTimerStop = trysound.soundTime;
                     volume = trysound.volume;
-                    changepitch = trysound.changepitch;
+                    changepitch=trysound.changepitch;
                 }
             }
             if (stepSound == null) { return base.ContinueExecute(dt); }
@@ -99,7 +99,6 @@ namespace SimpleFootStepsRedux
             }
 
             return base.ContinueExecute(dt);
-
         }
     }
 
@@ -136,7 +135,7 @@ namespace SimpleFootStepsRedux
                     stepSound = new AssetLocation(trysound.soundFile);
                     stepTimerStop = trysound.soundTime;
                     volume = trysound.volume;
-                    changepitch = trysound.changepitch;
+                    changepitch=trysound.changepitch;
                 }
             }
             if (stepSound == null) { return base.ContinueExecute(dt); }
@@ -148,10 +147,7 @@ namespace SimpleFootStepsRedux
                 stepTimer = 0;
             }
 
-            
-
             return base.ContinueExecute(dt);
-
         }
     }
 
@@ -188,7 +184,7 @@ namespace SimpleFootStepsRedux
                     stepSound = new AssetLocation(trysound.soundFile);
                     stepTimerStop = trysound.soundTime;
                     volume = trysound.volume;
-                    changepitch = trysound.changepitch;
+                    changepitch=trysound.changepitch;
                 }
             }
             if (stepSound == null) { return base.ContinueExecute(dt); }
@@ -201,7 +197,6 @@ namespace SimpleFootStepsRedux
             }
 
             return base.ContinueExecute(dt);
-
         }
     }
 
@@ -218,6 +213,8 @@ namespace SimpleFootStepsRedux
         float stepTimerStop = 0.55f;
 
         float volume = 1;
+
+        float range = 32;
 
         bool changepitch = true;
 
@@ -238,7 +235,7 @@ namespace SimpleFootStepsRedux
                     stepSound = new AssetLocation(trysound.soundFile);
                     stepTimerStop = trysound.soundTime;
                     volume = trysound.volume;
-                    changepitch = trysound.changepitch;
+                    changepitch=trysound.changepitch;
                 }
             }
             if (stepSound == null) { return base.ContinueExecute(dt); }
@@ -246,15 +243,11 @@ namespace SimpleFootStepsRedux
 
             if (stepTimer >= stepTimerStop)
             {
-                world.PlaySoundAt(stepSound, entity.Pos.X, entity.Pos.Y, entity.Pos.Z, null, true, 32f, volume);
+                world.PlaySoundAt(stepSound, entity.Pos.X, entity.Pos.Y, entity.Pos.Z, null, true, range, volume);
                 stepTimer = 0;
             }
 
             return base.ContinueExecute(dt);
         }
     }
-
-
-
-
 }
