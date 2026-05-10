@@ -8,7 +8,7 @@
         "CoB"
     ],
     "description": "Will play footstep sounds for entities.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "dependencies": {
         "game": ""
     },
